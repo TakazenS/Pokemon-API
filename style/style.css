@@ -1,0 +1,35 @@
+body {
+    font-family: 'JetBrains Mono';
+    background-color: orange;
+}
+
+#wrapper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+}
+
+#number {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#name {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
