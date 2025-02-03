@@ -1,7 +1,7 @@
 let button = document.getElementById('button');
-let image = document.getElementById('image');
-let number = document.getElementById('number');
-let name = document.getElementById('name');
+let pokeImage = document.getElementById('image');
+let pokeNumber = document.getElementById('number');
+let pokeName = document.getElementById('name');
 
 const changePokemon = async () => {
     let randomPoke = Math.floor(Math.random() * 1024) + 1;
@@ -12,9 +12,11 @@ const changePokemon = async () => {
 
     let response = await getData.json();
 
-    image.src = response.sprites.front_default;
-    number.textContent = `#${response.id}`;
-    name.textContent = response.name;
+    pokeImage.src = response.sprites.front_default;
+    pokeNumber.textContent = `#${response.id}`;
+    upperCaseName = pokeName.textContent = response.name;
+
+    pokeName.textContent = upperCaseName.charAt(0).toUpperCase() + upperCaseName.slice(1).toLowerCase();
 };
 
 changePokemon();

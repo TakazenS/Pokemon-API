@@ -43,7 +43,7 @@ body {
 }
 
 #button {
-    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+    background-image: linear-gradient(to right, #F09819 1%, #EDDE5D  51%, #F09819  101%);
     font-family: 'JetBrains Mono';
    margin: 10px;
    padding: 15px 45px;
@@ -64,6 +64,7 @@ body {
    color: black;
    text-decoration: none;
    box-shadow: #351c15 0 0 10px;
+   cursor: pointer;
 }
 
 
