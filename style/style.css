@@ -1,6 +1,6 @@
 body {
     font-family: 'JetBrains Mono';
-    background-color: orange;
+    background-color: #351c15;
 }
 
 #wrapper-container {
@@ -17,9 +17,19 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background-color: white;
-    height: 350px;
-    width: 350px;
+    background-color: #ECF8F6;
+    height: 500px;
+    width: 500px;
+    box-shadow: #ECF8F6 0 0 20px;
+}
+
+#element-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
 }
 
 #number {
@@ -30,6 +40,30 @@ body {
 #name {
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+#button {
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+    font-family: 'JetBrains Mono';
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   font-size: large;
+   border: none;
+   padding: 15px 20px;
+   color: black;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 30px;
+   display: block;
+}
+
+#button:hover {
+    background-position: right center;
+   color: black;
+   text-decoration: none;
+   box-shadow: #351c15 0 0 10px;
 }
 
 
