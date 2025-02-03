@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'JB_Mono';
+    src: url('../font/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype'),
+         url('../font/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'JetBrains Mono';
+    font-family: 'JB_Mono';
     background-color: #351c15;
 }
 
