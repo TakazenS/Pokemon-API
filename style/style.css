@@ -52,7 +52,7 @@ body {
 
 #button {
     background-image: linear-gradient(to right, #F09819 1%, #EDDE5D  51%, #F09819  101%);
-    font-family: 'JetBrains Mono';
+    font-family: 'JB_Mono';
    margin: 10px;
    padding: 15px 45px;
    text-align: center;
